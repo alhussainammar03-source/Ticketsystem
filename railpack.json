@@ -8,8 +8,7 @@
     "libonig-dev",
     "libzip-dev",
     "libsodium-dev",
-    "libgd-dev"
-  ],
+    "libgd-dev" ],
   "packages": {
     "php": "8.4"
   }
