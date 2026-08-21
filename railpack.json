@@ -1,12 +1,15 @@
 {
   "$schema": "https://schema.railpack.com",
- "provider": "php",
+  "provider": "php",
   "buildAptPackages": [
     "bison",
-    "re2c"
+    "re2c",
+    "libcurl4-openssl-dev",
+    "libonig-dev",
+    "libzip-dev",
+    "libsodium-dev"
   ],
   "packages": {
     "php": "8.4"
-  }  
+  }
 }
-
