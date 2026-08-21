@@ -7,7 +7,8 @@
     "libcurl4-openssl-dev",
     "libonig-dev",
     "libzip-dev",
-    "libsodium-dev"
+    "libsodium-dev",
+    "libgd-dev"
   ],
   "packages": {
     "php": "8.4"
