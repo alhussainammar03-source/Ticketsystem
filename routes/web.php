@@ -4,12 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TicketController;
 
 
+// Startseite → Tickets
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('tickets.index');
 });
 
 
-
-
-//Roter Ticket 
+// Ticket Routes
 Route::resource('tickets', TicketController::class);
